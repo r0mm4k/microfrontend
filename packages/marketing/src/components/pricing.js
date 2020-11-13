@@ -19,10 +19,10 @@ const Copyright = () => {
   const date = new Date().getFullYear();
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      Copyright ©{' '}
+      Copyright ©{" "}
       <Link color="inherit" href="https://material-ui.com/">
         Your Website
-      </Link>{' '}
+      </Link>{" "}
       {date}.
     </Typography>
   );
